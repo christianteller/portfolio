@@ -1,4 +1,27 @@
+
+//delay on click
+function delay(URL) {
+	setTimeout( function() {
+		window.location = URL
+	}, 900);
+}
+
+
+
+
 $(document).ready(function () {
+
+
+//scroll fixed navbar toggle
+	let fn = $('.fixedNav');
+
+	$(window).scroll(function() {
+		if( $(this).scrollTop() > 740){
+			fn.removeClass('hidden');
+		} else {
+			fn.addClass('hidden');
+		}
+	});
 
 //about me link jquery stuffs
 	$('.left-link').mouseover(function() {
