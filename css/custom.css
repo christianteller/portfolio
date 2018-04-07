@@ -117,6 +117,17 @@
 	background-repeat: no-repeat;
 }
 
+.projects {
+	height: 600px;
+	padding-top: 100px;
+}
+
+.album img {
+	display: block;
+	margin: auto;
+}
+
+
 /*MOBILE*/
 @media screen and (max-width: 750px) {
 	.targets img {

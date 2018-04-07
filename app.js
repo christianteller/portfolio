@@ -12,6 +12,14 @@ function delay(URL) {
 $(document).ready(function () {
 
 
+	$('.album').slick({
+		arrows: true,
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 2000
+	});
+
+
 //scroll fixed navbar toggle
 	let fn = $('.fixedNav');
 
