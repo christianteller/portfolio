@@ -16,7 +16,7 @@ $(document).ready(function () {
 		arrows: true,
 		dots: true,
 		autoplay: true,
-		autoplaySpeed: 2000
+		autoplaySpeed: 60000
 	});
 
 
