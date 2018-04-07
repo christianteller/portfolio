@@ -1,3 +1,5 @@
+
+
 .hero {
   background: url('../images/paper2560.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -9,13 +11,22 @@
   width: 100%;
 }
 
-.divider {
+.divider-bottom {
 	background-image: url('../images/rip-bottom.png');
 	background-size: cover;
-	height: 100px;
+	height: 33px;
 	width: 100%;
 	background-repeat: no-repeat;
 }
+
+.divider-top {
+	background-image: url('../images/rip-top.png');
+	background-size: cover;
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
 /**/
 .hidden {
 	display: none;
