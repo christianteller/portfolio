@@ -3,7 +3,7 @@
 function delay(URL) {
 	setTimeout( function() {
 		window.location = URL
-	}, 900);
+	}, 1000);
 }
 
 
@@ -16,7 +16,7 @@ $(document).ready(function () {
 	let fn = $('.fixedNav');
 
 	$(window).scroll(function() {
-		if( $(this).scrollTop() > 740){
+		if( $(this).scrollTop() > 625){
 			fn.removeClass('hidden');
 		} else {
 			fn.addClass('hidden');
