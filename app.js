@@ -6,12 +6,10 @@ function delay(URL) {
 	}, 1000);
 }
 
-
-
-
 $(document).ready(function () {
 
 
+//slick carousel
 	$('.album').slick({
 		arrows: true,
 		dots: true,
